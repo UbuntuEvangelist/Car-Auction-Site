@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,7 +8,7 @@ gem 'pg'
 gem 'activerecord-postgresql-adapter'
 #gem 'mysql'
 gem 'bcrypt-ruby'
-gem 'paperclip'
+gem 'paperclip', '>= 3.1.2'
 gem 'haml'
 # Gems used only for assets and not required
 # in production environments by default.
